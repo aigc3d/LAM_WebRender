@@ -29,7 +29,8 @@ export class GaussianAvatar {
       {
         getChatState: this.getChatState.bind(this),
         getExpressionData: this.getArkitFaceFrame.bind(this),
-        backgroundColor: "0x000000"
+        backgroundColor: "0xff0000",
+        alpha: 0.2
       },
     );
     this.startTime = performance.now() / 1000;
